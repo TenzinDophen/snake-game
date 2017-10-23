@@ -1,6 +1,6 @@
 '''SnakeGame.py
 By Tenzin Dophen, Adapted from Jed Yang 2017-03-15
-This class contains objects which draws a  body like a snake with a tail, which 
+This class contains objects which draws a body like a snake with a tail, which
 can be moved around by a user, using the arrows on the keyboards for direction. The snake
 can eat any objects(circles, supposed to be apples)  also drawn in the class snake on the way which will increase 
 the user's score but also grows the snake's tail by 1 each time it eats. The user loses(the game ends and the window closes) if 
@@ -168,4 +168,4 @@ def snakeModule():
       # pause for roughly 1/24 of a second
    
 if __name__ == '__main__':
-    snakeModule()    #Only runs snakeModule() if the program is not being called by another
+    snakeModule()   #Only runs snakeModule() if the program is not being called by another
